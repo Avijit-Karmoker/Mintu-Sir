@@ -467,6 +467,9 @@
   .read_achievement{
     margin-top: 10px;
   }
+  .achievement_img{
+    height: 220px;
+  }
 }
 
 @media screen and (max-width: 375px){
