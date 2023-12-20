@@ -1,0 +1,44 @@
+.news {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #34328F;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.latest_news{
+  background-color: #34328F;
+  color: #fff;
+  width: 130px;
+  padding: 10px 15px;
+}
+
+.latest_news span{
+  font-weight: bold;
+}
+
+.marquee {
+  width: 92%;
+}
+
+.marquee ul{
+  margin-bottom: 0;
+}
+
+.marquee ul li{
+  display: inline;
+  margin-right: 50px;
+}
+
+.marquee ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.marquee ul li a:hover{
+  color: #F4A024;
+}
+
+.gallery_news_container{
+  margin-bottom: 30px;
+}

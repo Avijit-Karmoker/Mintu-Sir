@@ -1,0 +1,350 @@
+
+.nav_bar{
+    background: #34328f;
+    height: 56px;
+    border-bottom: 4px solid #F4A024;
+}
+#menu{
+    margin: auto;
+    display: block;
+}
+
+#menu > ul{
+    background: #34328f;
+}
+
+#menu ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+    z-index: 99999;
+}
+
+#menu ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 10px 38px;
+    display: block;
+}
+
+#menu ul li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li:hover{
+    background-color: #F4A024;
+}
+
+#menu ul ul{
+    position: absolute;
+    background: #27ae60;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+#menu ul ul li{
+    float: none;
+    width: 210px;
+    border-left: 3px solid #27ae60;
+}
+
+#menu ul ul li:hover{
+    border-left: 3px solid #2c3e50;
+}
+
+#menu ul ul ul{
+    top: 0px;
+    left: 100%;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+}
+
+.menu_button{
+    background: none;
+    border: none;
+    display: none;
+    padding-left: 0;
+}
+
+.menu_button i{
+    font-size: 30px;
+}
+
+.child1{
+    border-left: 2px solid #F4A024;
+}
+
+.child1,
+.child2,
+.child3,
+.child4,
+.child5{
+    border-right: 2px solid #F4A024;
+}
+
+.child2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child2 i{
+    padding-right: 10px;
+    color: #fff;
+}
+
+.submenu2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child4 i{
+    padding-right: 10px;
+    color: #fff;
+}
+
+#down{
+    display: none;
+}
+
+#down2{
+    display: none;
+}
+.deep_menu_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1025px){
+    #menu ul a {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #menu{
+        display: none;
+    }
+    .nav_bar{
+        height: 300px;
+        background: none;
+        position: absolute;
+        width: 100%;
+        border-bottom: none;
+    }
+    #menu > ul{
+        border-bottom: none;
+    }
+    #menu ul a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .child2 .down{
+        display: none;
+    }
+
+    #minus{
+        border: none;
+        background: none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    #minus i{
+        padding-right: 0;
+    }
+
+    .child2 .plus{
+        display: block;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+    .child4 .plus{
+        display: block;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    #menu ul{
+        width: 100%;
+    }
+
+    #menu ul li{
+        float: none;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu_button{
+        display: block;
+    }
+
+    .child4 i{
+        display: none;
+    }
+
+    .child4 .plus{
+        display: block;
+        justify-content: space-between;
+    }
+
+    .child4 .minus{
+        display: block;
+    }
+
+    #menu ul ul{
+        z-index: 1;
+        /* display: block; */
+    }
+    #plus{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    #plus3{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    #plus2{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    #minus2{
+        color: #000;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: none;
+        background: none;
+    }
+    #minus3{
+        color: #000;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: none;
+        background: none;
+    }
+    #minus2 i{
+        padding-right: 0;
+    }
+    #minus3 i{
+        padding-right: 0;
+    }
+    .child1{
+        border-left: none;
+        border-top: 2px solid #fff;
+    }
+    
+    .child1,
+    .child2,
+    .child3,
+    .child4,
+    .child5{
+        border-right: none;
+        border-bottom: 2px solid #F4A024;
+    }
+    #menu ul ul li{
+        width: 100%;
+    }
+    #deepmenu{
+        width: 100% !important;
+        top: 100% !important;
+        left: 0 !important;
+    }
+    #deep_sub_menu{
+        width: 100% !important;
+        top: 100% !important;
+        left: 0 !important;
+    }
+    .submenu2 .down{
+        display: block !important;
+    }
+    .submenu2 .right{
+        display: none;
+    }
+    .deep_menu_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #down{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+        display: block;
+    }
+    #down i{
+        padding-right: 0;
+    }
+    #up{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    #up i{
+        padding-right: 0;
+    }
+    #down2{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+        display: block;
+    }
+    #down2 i{
+        padding-right: 0;
+    }
+    #up2{
+        background: none;
+        border: none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    #up2 i{
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .child2 .plus{
+        display: none;
+    }
+    .child4 .plus{
+        display: none;
+    }
+    #plus{
+        display: none !important;
+    }
+    #plus2{
+        display: none !important;
+    }
+    #plus3{
+        display: none !important;
+    }
+}

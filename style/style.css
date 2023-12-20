@@ -1,0 +1,578 @@
+/* contact section css start */
+.containers{
+  width: 60%;
+  margin: auto;
+}
+
+.contact_section {
+  background-color: #34328f;
+  color: #fff;
+}
+
+.contact_div {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.phone_number {
+  display: flex;
+  align-items: center;
+  width: 132px;
+}
+
+.contact_div p {
+  margin-bottom: 0;
+  margin-left: 8px;
+  padding-right: 0;
+}
+
+.vertical_line {
+  width: 1px;
+  height: 20px;
+  border-left: 1px solid #fff;
+  margin: 0 15px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+/* contact section css start */
+
+/* top-head section css start */
+.top-head_image {
+  width: 125px;
+  margin-right: 10px;
+}
+
+.top-head_image img {
+  width: 100%;
+}
+
+.top-head_div {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.top-head_div .chant {
+  display: flex;
+  align-items: center;
+}
+
+.chant_vertical {
+  width: 1px;
+  height: 20px;
+  border-left: 2px solid #000;
+  margin: 0 15px;
+}
+
+.school-name_div{
+  margin-left: 20px;
+  width: 100%;
+}
+.school_name h1{
+  padding-left: 0px;
+}
+
+/* top-head section css end */
+
+/* canvas-news div css start */
+
+.news2 {
+  border: 1px solid #000;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.news2{
+  display: flex;
+  align-items: center;
+}
+
+.news2 .latest_news2{
+  background-color: #000;
+  color: #fff;
+  width: 127px;
+  padding: 5px 15px;
+}
+
+.news_content{
+  margin-top: 15px;
+}
+
+.carousel-item img{
+  height: 554px;
+}
+
+.headmaster_img{
+  width: 220px;
+  margin: 15px;
+}
+
+.headmaster_img img{
+  width: 100%;
+}
+
+.sms_info{
+  display: flex;
+  align-items: center;
+}
+
+.headmaster_sms{
+  border: 4px solid #34328f;
+}
+
+.sms_title{
+  text-align: center;
+  background: #34328f;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.headmaster_info a{
+  text-decoration: none;
+  color: #34328f;
+}
+
+.headmaster_info{
+  margin-right: 15px;
+}
+
+.headmaster_info span{
+  font-size: 16px;
+}
+
+.headmaster_info a:hover span{
+  color: #F4A024;
+}
+
+.notice{
+  margin-top: 20px;
+  border: 4px solid #34328f;
+}
+
+.notice_title{
+  background-color: #34328f;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.notice a{
+  text-decoration: none;
+  color: #34328f;
+}
+
+.notice a:hover{
+  text-decoration: none;
+  color: #F4A024;
+}
+
+#carouselExampleControls{
+  z-index: -1;
+}
+
+/* Welcome & special corner css start */
+
+.welcome_head{
+  color: #fff;
+  background-color: #34328f;
+  text-align: center;
+}
+
+.welcome_head h3{
+  padding: 10px 0;
+}
+
+.welcome_text{
+  padding-left: 10px;
+}
+
+.welcome_text p{
+  margin-bottom: 0;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.special_corner{
+  border: 4px solid #34328f;
+  height: 330px;
+}
+
+.special_title{
+  color: #fff;
+  background-color: #34328f;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.special_image{
+  width: 365px;
+  margin: auto;
+}
+
+.special_image img{
+  width: 100%;
+}
+/* Welcome & special corner css end */
+
+/* archive div css start */
+.archive_title{
+  text-align: center;
+  color: #fff;
+  background-color: #34328f;
+  margin-top: 40px;
+}
+
+.archive_title h3{
+  padding: 10px 0;
+}
+
+.archive_info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+
+.archive_img{
+  width: 170px;
+  margin-right: 15px;
+}
+
+.archive_img img{
+  width: 100%;
+}
+
+.bold_title{
+  font-weight: 500;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.bold_title:hover{
+  color: #F4A024;
+}
+
+.date,
+.archive_details{
+  color: #8f8f8f;
+}
+
+.archive_details{
+  margin-bottom: 0;
+}
+/* archive div css end */
+
+
+/* achievement div css start */
+.achievement_head{
+  color: #fff;
+  background-color: #34328f;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.achievement_head h3{
+  padding: 10px 0;
+}
+
+.achievement{
+  border: 1px solid #e0e0e0;
+}
+
+.achievement_img{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  top: -50%;
+}
+
+.achievement_img img{
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  scale: 1;
+  transition: .4s all ease-in-out;
+  -webkit-transition: .4s all ease;
+  -moz-transition: .4s all ease;
+  -ms-transition: .4s all ease;
+  -o-transition: .4s all ease;
+}
+
+.achievement_hover:hover .achievement_img img{
+  scale: 1.1;
+}
+
+.bold{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.achievement_text{
+  padding: 40px;
+}
+
+.achievement_text a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #34328f;
+  padding: 15px 25px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: .2s all ease;
+  -webkit-transition: .2s all ease;
+  -moz-transition: .2s all ease;
+  -ms-transition: .2s all ease;
+  -o-transition: .2s all ease;
+}
+
+.read_achievement{
+  margin-top: 40px;
+}
+
+.achievement_text a:hover{
+  background-color: #F4A024;
+}
+
+.footer_address{
+  background-color: #34328f;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+.footer_address h4{
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.footer_address a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+.copyright{
+  text-align: center;
+  padding: 30px 0;
+  background-color: #242263;
+  color: #fff;
+}
+
+.copyright p{
+  margin-bottom: 0;
+}
+
+.copyright span{
+  color: #c9c6c6 !important;
+}
+
+/* achievement div css end */
+
+
+/* gallery div css start */
+.marquee2{
+  height: 200px;
+}
+
+/* gallery div css start */
+
+@media screen and (max-width: 1025px){
+  .top-head_div{
+    padding-left: 13px;
+  }
+  .contact_div{
+    padding-left: 13px;
+  }
+  .carousel-item img {
+    height: 470px;
+  }
+  .special_image{
+    width: 290px;
+    margin: auto;
+  }
+  .special_corner{
+    height: 280px;
+  }
+  .marquee2{
+    height: 163px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .latest_news{
+    width: 135px !important;
+  }
+  .carousel-item img {
+    height: 400px;
+  }
+  .headmaster_sms,
+  .news_content,
+  .special_corner,
+  .notice,
+  .welcome_head,
+  .archive_title,
+  .achievement_head{
+    margin-top: 25px;
+  }
+  .marquee2{
+    height: 200px;
+  }
+  .gallery_news_container{
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .top-head_div{
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  }
+  .top-head_image{
+    margin: auto;
+  }
+  .school-name_div{
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .top-head_div .chant{
+    justify-content: center;
+  }
+  .latest_news{
+    width: 150px !important;
+    padding: 5px 10px !important;
+  }
+  .latest_news span{
+    font-weight: 400 !important;
+  }
+  .carousel-item img {
+    height: 250px;
+  }
+  .achievement_text{
+    padding: 20px;
+  }
+  .read_achievement{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .top-head_div{
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  }
+  .top-head_image{
+    margin: auto;
+  }
+  .school-name_div{
+    margin-left: 0;
+  }
+  .top-head_div .chant{
+    justify-content: center;
+  }
+  .contact_div{
+    padding: 10px 0px !important;
+  }
+}
+
+@media screen and (max-width: 320px){
+  #menu ul li{
+    padding: 5px 0 !important;
+  }
+  .latest_news{
+    padding: 3px 7px !important;
+  }
+  .contact_div {
+    display: block;
+    padding: 10px 15px;
+  }
+  .phone_number{
+    margin-bottom: 10px;
+  }
+  .vertical_line{
+    display: none;
+  }
+  .top-head_div {
+    display: block;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .school-name_div {
+    margin-left: 0;
+  }
+  .top-head_image{
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .archive_info{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .archive_img {
+    width: 296px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .archive_img img{
+    width: 100%;
+    height: 160px;
+  }
+  .archive_text{
+    padding: 5px;
+  }
+  .achievement_text{
+    padding: 10px;
+    padding-bottom: 25px;
+  }
+  .footer_address{
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 25px;
+  }
+  .footer_address h4{
+    line-height: normal;
+    font-size: 20px;
+  }
+  .copyright{
+    padding: 20px 0;
+  }
+  .carousel-item img {
+    height: 200px;
+  }
+  .welcome_text {
+    padding-left: 0;
+  }
+  .achievement_img{
+    height: 155px;
+  }
+  .achievement_img img{
+    height: 150px;
+  }
+  .read_achievement{
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
